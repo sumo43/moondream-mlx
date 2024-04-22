@@ -1,0 +1,8 @@
+mlx>=0.8.0
+numpy
+transformers
+torch
+huggingface_hub
+Pillow
+mlx_lm
+torchvision
