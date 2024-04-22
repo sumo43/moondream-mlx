@@ -4,7 +4,8 @@ image:
 
 ![kot](http://images.cocodataset.org/val2017/000000039769.jpg)
 
-prompt: ```
+prompt:
+```
 USER: <image>\What is in this picture? Explain, be detailed.\nASSISTANT:
 ```
  
