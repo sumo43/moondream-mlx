@@ -18,7 +18,6 @@ from vision import VisionConfig, VisionEncoder
 
 @dataclass
 class LlaVAConfig:
-    vision_config: VisionConfig = VisionConfig("moondream")
     ignore_index: int = -100
     image_token_index: int = 32000
     vision_feature_select_strategy: str = "default"
@@ -75,7 +74,6 @@ class Moondream(nn.Module):
 
         with open(path / "config.json", "r") as f:
             model_config = json.load(f)
-
 
         model_config = LlaVAConfig.from_dict(model_config)
 
